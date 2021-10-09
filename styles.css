@@ -1,0 +1,112 @@
+html,
+body {
+  font-family: SuperMarioFont;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background-color: #e75a10;
+  max-width: 197px;
+  padding-left: 2px;
+  position: relative;
+  top: 35%;
+  left: 35%;
+  transform: scale(2.7);
+}
+.stln {
+  font-size: 225%;
+  color: #f7d6b5;
+  padding-left: 3%;
+  padding-top: 2%;
+  text-shadow: 3.5px 3.5px #000000;
+}
+.ndln {
+  font-size: 280%;
+  color: #f7d6b5;
+  padding-left: 3%;
+  padding-top: 0%;
+  text-shadow: 3.5px 3.5px #000000;
+}
+
+body {
+  background-color: #548cff;
+}
+.ground {
+  height: 10%;
+  background-color: #c84c0c;
+  background-image: url(img/groundblock.png);
+}
+
+.ski {
+  background-color: #548cff;
+  height: 90%;
+}
+
+@font-face {
+  font-family: SuperMarioFont;
+  src: url(Super\ Plumber\ Brothers.ttf);
+}
+
+.skyblocks {
+  position: relative;
+  top: -250px;
+  left: 60%;
+}
+.brick {
+  margin: -2px;
+}
+
+.bush {
+  position: relative;
+  top: -17.5%;
+}
+.bush:nth-child(1) {
+  left: 150px;
+}
+.bush:nth-child(2) {
+  left: 900px;
+}
+.bush:nth-child(3) {
+  left: 1500px;
+}
+
+.topline-mario {
+  position: absolute;
+  padding-left: 10px;
+}
+.topline-world {
+  position: absolute;
+  left: 68%;
+  padding-left: 15px;
+}
+.topline-time {
+  position: absolute;
+  left: 92%;
+}
+.bottomline-score {
+  position: absolute;
+  top: 90px;
+  padding-left: 10px;
+}
+
+.bottomline-world {
+  position: absolute;
+  top: 90px;
+  left: 68.5%;
+}
+.bottomline-time {
+  position: absolute;
+  top: 65px;
+  left: 92.5%;
+  font-size: 200%;
+}
+
+.top-line {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-size: 150%;
+}
